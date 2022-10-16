@@ -3,8 +3,11 @@
  "description": "Description about this website.",
  "contact": "533 Fuk Wing Street <br> Cheung Sha Wan <br> Kowloon, Hong Kong",
  "development": "BUILD20220928",
+ 
  "navBarColor": "#ffb7b7",
- "titleLink": "https://cdn57.picsart.com/179951678001202.jpg?to=crop&type=webp&r=1456x971&q=85",
+ "titleColor": "white",
+ 
+ "titleImageLink": "https://cdn57.picsart.com/179951678001202.jpg?to=crop&type=webp&r=1456x971&q=85",
  "csvLink":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQMMeLWsdWx2K049awd7P8K5RyA5zOZN7xYcUC2ZeDvZIgIMgE_3MZex7mRG2vM4b3SX5wwuJlWviOy/pub?gid=0&single=true&output=csv",
  "copyright": "&copy; 2022 CSWCSS",
  "version": "1.0"

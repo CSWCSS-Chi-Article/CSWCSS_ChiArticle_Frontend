@@ -7,10 +7,9 @@
     "version": "Chi_Article v1.0",
     
     "navBarColor": "#ffb7b7",
-    "navBarIconWidth": "32",
-    "navBarIconHeight": "32",
-    "navBarIconColor": "red",
-    "navBarIconLink": "https://cdn2.iconfinder.com/data/icons/cny-2020-outlined-version/150/CNY-Chinese-Newyear-Lion-Creature-Traditionl-512.png",
+    "navBarIconWidth": "35",
+    "navBarIconHeight": "35",
+    "navBarIconLink": "https://clipground.com/images/china-logo-clipart-1.png",
     
     "titleColor": "white",
     "titleImageLink": "https://github.com/ricehung29/CSWCSS_ChiArticle/blob/main/home.png?raw=true",

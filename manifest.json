@@ -14,6 +14,8 @@
     "titleColor": "white",
     "titleImageLink": "https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/home.png",
     
+    "sharingLink": "",
+    
     "PassageCSVLink":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQMMeLWsdWx2K049awd7P8K5RyA5zOZN7xYcUC2ZeDvZIgIMgE_3MZex7mRG2vM4b3SX5wwuJlWviOy/pub?gid=0&single=true&output=csv",
     "YearFolderCSVLink": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMMeLWsdWx2K049awd7P8K5RyA5zOZN7xYcUC2ZeDvZIgIMgE_3MZex7mRG2vM4b3SX5wwuJlWviOy/pub?gid=21242917&single=true&output=csv",
     "TypeFolderCSVLink": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMMeLWsdWx2K049awd7P8K5RyA5zOZN7xYcUC2ZeDvZIgIMgE_3MZex7mRG2vM4b3SX5wwuJlWviOy/pub?gid=508495416&single=true&output=csv"

@@ -5,8 +5,8 @@
   "updateRedirectLink": "http://cswcss.edu.hk",
   "updateMessage": "網頁正在更新，請稍後再瀏覽",
   
-  "enableSharing": 1 ,
-  "enableTypeSorting": 1 ,
+  "enableSharing": 0 ,
+  "enableTypeSorting": 0 ,
   
   "enableMessage": 1 ,
   "messageContent" : "測試訊息 ABC123456 CSWCSS 27415034",

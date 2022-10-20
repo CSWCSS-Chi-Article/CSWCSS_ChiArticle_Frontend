@@ -8,7 +8,7 @@
   "enableSharing": 0 ,
   "enableTypeSorting": 1 ,
   
-  "enableMessage": 0 ,
+  "enableMessage": 1 ,
   "messageContent" : "測試訊息 ABC123456 CSWCSS 27415034",
   "messageColor" : "info"
   

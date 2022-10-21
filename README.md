@@ -5,7 +5,7 @@
 ![](https://img.shields.io/github/issues/ricehung29/CSWCSS_ChiArticle.svg) 
 
 ## Introduction 
-  This system was built for storing passages of past students and open for visiting.
+  This system was designed for displaying passage of well-performed students in the past for visitor.
   
 ## Change Log
 | Version | Description | Date |

@@ -5,10 +5,13 @@
 ![](https://img.shields.io/github/issues/ricehung29/CSWCSS_ChiArticle.svg) 
 
 ## Introduction 
-  This system was designed for displaying passage of well-performed students in the past for visitor.
+  Chi_Article was designed under the powerful leadership of CSWCSS Chinese department.
   
 ## Flow
 <img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" ></img>
+
+## Requirement
+- PHP 5.6 or later
 
 ## Dev corner
 - https://ricehung29.github.io/CSWCSS_ChiArticle/manifest.json

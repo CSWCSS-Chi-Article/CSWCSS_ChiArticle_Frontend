@@ -7,24 +7,8 @@
 ## Introduction 
   This system was designed for displaying passage of well-performed students in the past for visitor.
   
-## Change Log
-| Version | Description | Date |
-| ---- |----| ---- |
-| v0.1.0| Inital draft of system| 21/09/2022 |
-| v0.1.1| Passage on local storage| 23/09/2022 |
-| v0.1.2| Content page based on Google Sheets | 25/09/2022 |
-| v0.2.0| Passage on Google drive in Json| 26/09/2022 |
-| v0.2.1| Favicon added| 27/09/2022|
-| v0.2.2| ||
-|v0.3.1| Folder function added| 9/10/2022|
-|v0.3.3| Introduction of manifest.json|10/10/2022|
-|||12/10/2022|
-|| Introduction of state.json|18/10/2022|
-|| Introduction of Google fonts|19/10/2022|
-|v0.4.1|Introduction of lunar calendar|21/10/2022|
-||Background changed uniformly|22/10/2022|
-
-
+## Flow
+<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" ></img>
 To be continued...
 
 ## Dev corner

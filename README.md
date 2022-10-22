@@ -7,8 +7,8 @@
 ## Introduction 
   Chi_Article was designed under the strong and powerful leadership of Chinese language department.
   
-## Version
-Current version : Beta v0.4 - Complete transformation to cloud storage
+## Current Version
+  Beta v0.4 - Complete transformation on cloud storage
 
 ## Flow
 <img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" >

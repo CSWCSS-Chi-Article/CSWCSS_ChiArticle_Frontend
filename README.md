@@ -8,7 +8,7 @@
   This system was designed for displaying passage of well-performed students in the past for visitor.
   
 ## Flow
-<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.jpg" ></img>
+<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" ></img>
 
 ## Dev corner
 - https://ricehung29.github.io/CSWCSS_ChiArticle/manifest.json

@@ -20,7 +20,6 @@ Current version : Beta v0.4 - Complete transformation to cloud storage
 - https://ricehung29.github.io/CSWCSS_ChiArticle/manifest.json
 - https://ricehung29.github.io/CSWCSS_ChiArticle/state.json
 
-<br>
-To be continued...
-<br>
 PHP乃是神的創造
+<br>
+&copy; 2022 ricehung29

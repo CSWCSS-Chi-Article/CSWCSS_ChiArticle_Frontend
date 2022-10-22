@@ -8,7 +8,7 @@
   Chi_Article was designed under the strong and powerful leadership of Chinese language department.
   
 ## Flow
-<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" ></img>
+<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" >
 
 ## Requirement
 - PHP 5.6 or later

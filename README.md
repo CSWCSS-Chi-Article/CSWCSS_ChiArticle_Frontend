@@ -5,7 +5,7 @@
 ![](https://img.shields.io/github/issues/ricehung29/CSWCSS_ChiArticle.svg) 
 
 ## Introduction 
-  Chi_Article was designed under the powerful leadership of CSWCSS Chinese department.
+  Chi_Article was designed under the strong and powerful leadership of Chinese language department.
   
 ## Flow
 <img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" ></img>

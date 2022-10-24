@@ -183,7 +183,7 @@ function getSheets($sheetsurl)
       echo '
     <div class="carousel-inner ">
       <svg class="bd-placeholder-img" width="100%" height="max-content" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
-      <div class="carousel-caption text-end" style="color:<?php echo $sys["titleColor"]; ?>;margin-top:50%;margin-bottom:0px;padding-bottom:0px;">
+      <div class="carousel-caption text-end" style="color:'.$sys["titleColor"].';margin-top:50%;margin-bottom:0px;padding-bottom:0px;">
         <strong>
           <p class="fs-3">' . $month[3] . "年 " . $month[1] . $month[2] . '</p>
           <p class="fs-5">' . date("Y年m月d日") . '</p>

@@ -16,7 +16,7 @@
     "articleImageLink": "https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/img/pattern_2.jpg",
     "articleTextColor": "white",
     
-    "sharingLink": "",
+    "sharingLink": "https://cswcss-chi-article.herokuapp.com/v1/",
     
     "PassageCSVLink":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQMMeLWsdWx2K049awd7P8K5RyA5zOZN7xYcUC2ZeDvZIgIMgE_3MZex7mRG2vM4b3SX5wwuJlWviOy/pub?gid=0&single=true&output=csv",
     "YearFolderCSVLink": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMMeLWsdWx2K049awd7P8K5RyA5zOZN7xYcUC2ZeDvZIgIMgE_3MZex7mRG2vM4b3SX5wwuJlWviOy/pub?gid=21242917&single=true&output=csv",

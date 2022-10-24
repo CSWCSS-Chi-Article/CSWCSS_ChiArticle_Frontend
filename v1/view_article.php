@@ -1,6 +1,6 @@
 <?php
 if (!isset($_GET['t'])) {
-  exit('<iframe src="https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html">
+  exit('<iframe src="https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html"></iframe>
     
     <style media="screen">
 		  html,body,iframe {
@@ -194,7 +194,7 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
       <p class="float-end mb-1">
         <a href="#" style="text-decoration:none;color:<?php echo $sys['articleTextColor'] ?>;">回到頂部</a>
       </p>
-      <span class="" style="color:<?php echo($sys['articleTextColor'] . ';">' . $sys["copyright"]); ?></span>
+      <span class="" style="color:<?php echo ($sys['articleTextColor'] . ';">' . $sys["copyright"]); ?></span>
     </div>
   </footer>
 
@@ -230,4 +230,3 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
 </html>
 
 <!-- (C) CSWCSS 2022-->
-

@@ -11,7 +11,6 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
 
   $lunar = new Lunar();
   $month = $lunar->convertSolarToLunar(date('Y'), date('m'), date('d'));
-
 } else {
   exit('' . $verify['updateMessage'] . '');
 }
@@ -179,16 +178,20 @@ function getSheets($sheetsurl)
 <body>
   <br><br>
   <main>
+
+    <?php if (!isset($_GET['folderID'])) {
+      echo '
     <div class="carousel-inner ">
-      <svg class="bd-placeholder-img" width="100%" height="max-content" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> <!-- <img class="bd-placeholder-img" src="<?php echo $sys["titleImageLink"]; ?>" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" width=100% height=120% ></img> -->
+      <svg class="bd-placeholder-img" width="100%" height="max-content" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
       <div class="carousel-caption text-end" style="color:<?php echo $sys["titleColor"]; ?>;margin-top:50%;margin-bottom:0px;padding-bottom:0px;">
         <strong>
-          <p class="fs-3"><?php echo ($month[3] . "年 " . $month[1] . $month[2]); ?></p>
-          <p class="fs-5"><?php echo (date("Y年m月d日")) ?></p>
+          <p class="fs-3">' . $month[3] . "年 " . $month[1] . $month[2] . '</p>
+          <p class="fs-5">' . date("Y年m月d日") . '</p>
         </strong>
         <p style="margin-bottom:0px;width=150%;" class="fs-6"><?php echo $welcome["forecastDesc"]; ?></p>
       </div>
-    </div>
+    </div>';
+    } ?>
 
     <style>
       .searchbar {

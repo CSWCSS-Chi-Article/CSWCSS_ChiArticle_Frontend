@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+
 $verify = json_decode(file_get_contents('https://ricehung29.github.io/CSWCSS_ChiArticle/state.json'), true);
 
 if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdating'] == 1)) {

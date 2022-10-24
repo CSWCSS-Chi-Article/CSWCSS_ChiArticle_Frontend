@@ -13,7 +13,7 @@
     
     "titleColor": "black",
     "titleImageLink": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/img/ppbk014.jpg",
-    "articleImageLink": "https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/img/pattern_2.jpg?token=GHSAT0AAAAAAB2C6PGVLVOCC2ZZYLIXBM5KY2WRDCA",
+    "articleImageLink": "https://ricehung29.github.io/CSWCSS_ChiArticle/img/pattern_2.jpg",
     "articleTextColor": "white",
     
     "sharingLink": "https://cswcss-chi-article.herokuapp.com/v1/",

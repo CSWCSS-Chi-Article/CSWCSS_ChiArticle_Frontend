@@ -1,7 +1,7 @@
 # CSWCSS_ChiArticle
 
 ## Introduction 
-  Chi_Article was designed under the strong and powerful leadership of Chinese language department. It is clearly a great success as a decentralized web application built by CSWCSS.
+  Chi_Article was designed under the strong and powerful leadership of Chinese language department. It is clearly a great success as a decentralized web application developed by CSWCSS.
   
 ## Current Version
   Beta v0.5 - <a href="https://cswcss-chi-article.herokuapp.com/v1/">View Here</a>

@@ -5,7 +5,7 @@
   "updateRedirectLink": "http://cswcss.edu.hk",
   "updateMessage": "網頁正在更新，請稍後再瀏覽",
   
-  "enableSharing": 0 ,
+  "enableSharing": 1 ,
   "enableTypeSorting": 1 ,
   
   "enableMessage": 0 ,

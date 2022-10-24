@@ -23,7 +23,7 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
 
   $page_title = $title . " - " . $sys["title"];
   $page_description = $title . "  作者：" . $author . "  年份：" . $year . "  - " . $sys["title"];
-  $page_url = $sys['sharingLink'] . "?view_article.php?t=" . $data_source;
+  $page_url = $sys['sharingLink'] . "view_article.php?t=" . $data_source;
 } else {
   exit('' . $verify['updateMessage'] . '');
 }

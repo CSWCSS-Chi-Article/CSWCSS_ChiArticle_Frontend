@@ -148,11 +148,11 @@ function getSheets($sheetsurl)
 
   <div class="navbar shadow-sm bg-light" style="background-color: <?php echo $sys["navBarColor"] ?>;display:flex;white-space: nowrap;">
     <div class="container">
-      <a href="./index.php" class="d-flex align-items-center text-decoration-none" width="50%">
+      <a href="./" class="d-flex align-items-center text-decoration-none" width="50%">
         <img class="bi me-2" width="<?php echo $sys["navBarIconWidth"]; ?>" height="<?php echo $sys["navBarIconHeight"]; ?>" role="img" src="<?php echo $sys["navBarIconLink"]; ?>"></img>
       </a>
 
-      <a href="./index.php" class="navbar-brand d-flex align-items-center">
+      <a href="./" class="navbar-brand d-flex align-items-center">
         <strong><?php echo $sys["title"] ?></strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -226,8 +226,8 @@ function getSheets($sheetsurl)
         echo ('
         <div class="album py-5 text-center fs-3 ">
         <div class="btn-group" role="group" aria-label="Basic example">
-              <a type="button" class="btn btn-secondary fs-5" href="./index.php?sort=year" >以年份排序</a>
-              <a type="button" class="btn btn-success fs-5" href="./index.php?sort=type" >以類型排序</a>
+              <a type="button" class="btn btn-secondary fs-5" href="?sort=year" >以年份排序</a>
+              <a type="button" class="btn btn-success fs-5" href="?sort=type" >以類型排序</a>
             </div>
         <br><br>
         ');
@@ -235,8 +235,8 @@ function getSheets($sheetsurl)
         echo ('
         <div class="album py-5 text-center fs-3 ">
         <div class="btn-group" role="group" aria-label="Basic example">
-              <a type="button" class="btn btn-success fs-5" href="./index.php?sort=year" >以年份排序</a>
-              <a type="button" class="btn btn-secondary fs-5" href="./index.php?sort=type" >以類型排序</a>
+              <a type="button" class="btn btn-success fs-5" href="?sort=year" >以年份排序</a>
+              <a type="button" class="btn btn-secondary fs-5" href="?sort=type" >以類型排序</a>
             </div>
         <br><br>
         ');

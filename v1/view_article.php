@@ -155,11 +155,11 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
     <div class="navbar shadow-sm bg-light" style="background-color: <?php echo $sys["navBarColor"] ?>;">
       <div class="container">
 
-        <a href="./index.php" class="d-flex align-items-center text-decoration-none">
+        <a href="./" class="d-flex align-items-center text-decoration-none">
           <img class="bi me-2" width="<?php echo $sys["navBarIconWidth"]; ?>" height="<?php echo $sys["navBarIconHeight"]; ?>" role="img" src="<?php echo $sys["navBarIconLink"]; ?>"></img>
         </a>
 
-        <a href="./index.php" class="navbar-brand d-flex align-items-center">
+        <a href="./" class="navbar-brand d-flex align-items-center">
           <strong><?php echo $sys["title"] ?></strong>
         </a>
       </div>

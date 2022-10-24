@@ -11,7 +11,7 @@
   Beta v0.4 - Complete transformation on cloud storage
 
 ## Flow
-<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/flow.png" >
+<img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/img/flow.png" >
 
 ## Requirement
 - PHP 5.6 or later 

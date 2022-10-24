@@ -1,26 +1,16 @@
 # CSWCSS_ChiArticle
 
-![](https://img.shields.io/github/stars/ricehung29/CSWCSS_ChiArticle.svg) 
-![](https://img.shields.io/github/forks/ricehung29/CSWCSS_ChiArticle.svg) 
-![](https://img.shields.io/github/issues/ricehung29/CSWCSS_ChiArticle.svg) 
-
 ## Introduction 
-  Chi_Article was designed under the strong and powerful leadership of Chinese language department.
+  Chi_Article was designed under the strong and powerful leadership of Chinese language department. It is clearly a great success as a decentralized web application built by CSWCSS.
   
 ## Current Version
-  Beta v0.4 - Complete transformation on cloud storage
-  <a href="https://cswcss-chi-article.herokuapp.com/v1/"><View Here!></a>
+  v1.0 - Stable
+  <br><a href="https://cswcss-chi-article.herokuapp.com/v1/"><View Here!></a>
 
 ## Flow
 <img src="https://raw.githubusercontent.com/ricehung29/CSWCSS_ChiArticle/main/img/flow.png" >
 
-## Requirement
-- PHP 5.6 or later 
-
-## Dev corner
-- https://ricehung29.github.io/CSWCSS_ChiArticle/manifest.json
-- https://ricehung29.github.io/CSWCSS_ChiArticle/state.json
-
+---
 PHP乃是神的創造
 <br>
 &copy; 2022 ricehung29

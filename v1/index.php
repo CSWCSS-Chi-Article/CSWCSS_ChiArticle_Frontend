@@ -303,7 +303,7 @@ function getSheets($sheetsurl)
 
             foreach ($lines as $value) {
               echo '
-              <a class="col" href="./index.php?folderID=' . $value[1] . '&sort=year" style="text-decoration: none;" >
+              <a class="col" href="?folderID=' . $value[1] . '&sort=year" style="text-decoration: none;" >
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="width:100%;height:100%;background-size: 100% 100%;background-image: url(' . $value[0] . ');">
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">' . $value[1] . '年度</h3>

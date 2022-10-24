@@ -1,9 +1,6 @@
 <?php
 if (!isset($_GET['t'])) {
-  echo '<script>
-  alert("ERROR PASSAGE CODE")
-  </script> ';
-  die();
+  header('Location:https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html');
 }
 
 $verify = json_decode(file_get_contents('https://ricehung29.github.io/CSWCSS_ChiArticle/state.json'), true);

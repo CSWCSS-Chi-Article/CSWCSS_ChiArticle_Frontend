@@ -323,12 +323,12 @@ function getSheets($sheetsurl)
 
   </main>
 
-  <footer class="text-muted py-5 ">
+  <footer class="footer mt-auto py-3">
     <div class="container">
       <p class="float-end mb-1">
-        <a href="#" style="text-decoration:none;">回到頂部</a>
+        <a href="#" style="text-decoration:none;color:<?php echo $sys['titleColor'] ?>;">回到頂部</a>
       </p>
-      <p class="mb-1"><?php echo $sys["copyright"]; ?></p>
+      <span class="" style="color:<?php echo ($sys['titleColor'] . ';">' . $sys["copyright"]); ?></span>
     </div>
   </footer>
 

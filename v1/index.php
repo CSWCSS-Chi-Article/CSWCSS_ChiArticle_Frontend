@@ -1,14 +1,5 @@
 <?php
 
-//If the HTTPS is not found to be "on"
-if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
-{
-    //Tell the browser to redirect to the HTTPS URL.
-    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
-    //Prevent the rest of the script from executing.
-    exit;
-}
-
 $verify = json_decode(file_get_contents('https://ricehung29.github.io/CSWCSS_ChiArticle/state.json'), true);
 
 if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdating'] == 1)) {
@@ -18,6 +9,7 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
 
   $lunar = new Lunar();
   $month = $lunar->convertSolarToLunar(date('Y'), date('m'), date('d'));
+
 } else {
   exit('' . $verify['updateMessage'] . '');
 }
@@ -183,18 +175,18 @@ function getSheets($sheetsurl)
 </header>
 
 <body>
-<br><br>
+  <br><br>
   <main>
-      <div class="carousel-inner ">
-          <svg class="bd-placeholder-img" width="100%" height="max-content" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> <!-- <img class="bd-placeholder-img" src="<?php echo $sys["titleImageLink"]; ?>" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" width=100% height=120% ></img> -->
-          <div class="carousel-caption text-end" style="color:<?php echo $sys["titleColor"]; ?>;margin-top:50%;margin-bottom:0px;padding-bottom:0px;">
-            <strong>
-              <p class="fs-3"><?php echo ($month[3] . "年 " . $month[1] . $month[2]); ?></p>
-              <p class="fs-5"><?php echo (date("Y年m月d日")) ?></p>
-            </strong>
-            <p style="margin-bottom:0px;width=150%;" class="fs-6"><?php echo $welcome["forecastDesc"]; ?></p>
-          </div>
+    <div class="carousel-inner ">
+      <svg class="bd-placeholder-img" width="100%" height="max-content" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> <!-- <img class="bd-placeholder-img" src="<?php echo $sys["titleImageLink"]; ?>" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" width=100% height=120% ></img> -->
+      <div class="carousel-caption text-end" style="color:<?php echo $sys["titleColor"]; ?>;margin-top:50%;margin-bottom:0px;padding-bottom:0px;">
+        <strong>
+          <p class="fs-3"><?php echo ($month[3] . "年 " . $month[1] . $month[2]); ?></p>
+          <p class="fs-5"><?php echo (date("Y年m月d日")) ?></p>
+        </strong>
+        <p style="margin-bottom:0px;width=150%;" class="fs-6"><?php echo $welcome["forecastDesc"]; ?></p>
       </div>
+    </div>
 
     <style>
       .searchbar {

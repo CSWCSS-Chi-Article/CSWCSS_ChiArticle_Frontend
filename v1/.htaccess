@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^index/folderID/(.*)/sort/(.*) /index.php?folderID=$1&sort=$2
+RewriteRule ^index/folderID/(.*)/sort/(.*)/ /index.php?folderID=$1&sort=$2

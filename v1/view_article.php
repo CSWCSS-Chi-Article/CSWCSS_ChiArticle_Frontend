@@ -1,6 +1,6 @@
 <?php
 if (!isset($_GET['t'])) {
-  header('Location:https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html');
+  exit('<iframe src="https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html">');
 }
 
 $verify = json_decode(file_get_contents('https://ricehung29.github.io/CSWCSS_ChiArticle/state.json'), true);

@@ -1,31 +1,11 @@
 <?php
-if (!isset($_GET['t'])) {
-  exit('<iframe src="https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html"></iframe>
-    
-    <style media="screen">
-		  html,body,iframe {
-			margin: 0;
-			padding: 0;
-		  }
-		  html,body {
-			height: 100%;
-			overflow: hidden;
-		  }
-		  iframe {
-			width: 100%;
-			height: 100%;
-			border: 0;
-		  }
-		</style>
-    ');
-}
 
 $verify = json_decode(file_get_contents('https://ricehung29.github.io/CSWCSS_ChiArticle/state.json'), true);
 
 if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdating'] == 1)) {
   $sys = json_decode(file_get_contents($verify['manifestLink']), true);
-
   $data_source = $_GET['t'];
+
   $passage_source = file_get_contents('https://drive.google.com/uc?id=' . $data_source . '');
   $passage = json_decode($passage_source, true);
   clearstatcache();
@@ -34,6 +14,27 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
   $author = $passage["author"];
   $year = $passage["year"];
   $content = $passage["content"];
+
+  if (!isset($_GET['t']) || ($title == null && $author == null && $year == null && $content == null)) {
+    exit('<iframe src="https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/page-not-found.html"></iframe>
+      
+      <style media="screen">
+        html,body,iframe {
+        margin: 0;
+        padding: 0;
+        }
+        html,body {
+        height: 100%;
+        overflow: hidden;
+        }
+        iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        }
+      </style>
+      ');
+  }
 
   $page_title = $title . " - " . $sys["title"];
   $page_description = $title . "  作者：" . $author . "  年份：" . $year . "  - " . $sys["title"];

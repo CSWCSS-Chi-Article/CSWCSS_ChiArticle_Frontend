@@ -1,7 +1,5 @@
 <?php
-error_reporting(0);
 
-echo ("START");
 clearstatcache();
 
 $filename = "passage.csv";
@@ -74,3 +72,5 @@ foreach($filesZip as $file){
 exit("ALL DONE! (C) 2022 ricehung29");
 
 # id,title,author,year,num of paragraphs,content(par 1),content(par 2)......
+
+#CHI_ARTICLE UPLOADER v1.0

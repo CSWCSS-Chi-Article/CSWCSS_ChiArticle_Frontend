@@ -1,9 +1,7 @@
 {
   "manifestLink": "../manifest.json",
   
-  "isUpdating": 0 ,
-  "updateRedirectLink": "http://cswcss.edu.hk",
-  
+  "isUpdating": 0 ,  
   "enableSharing": 1 ,
   "enableTypeSorting": 1 ,
   

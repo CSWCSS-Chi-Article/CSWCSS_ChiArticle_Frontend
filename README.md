@@ -7,7 +7,7 @@
   Beta v0.5 - <a href="https://cswcss-chi-article.herokuapp.com/v1/">View Here</a>
 
 ## Flow
-<img src="https://ricehung29.github.io/CSWCSS_ChiArticle/img/flow.png" >
+<img src="https://cswcss-chi-article.github.io/CSWCSS_ChiArticle_Frontend/img/flow.png" >
 
 ---
 PHP乃是神的創造

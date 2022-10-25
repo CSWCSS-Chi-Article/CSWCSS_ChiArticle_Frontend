@@ -42,7 +42,24 @@ if ($verify['isUpdating'] == 0 || (isset($_GET['isUpdating']) && $_GET['isUpdati
   $page_description = $title . "  作者：" . $author . "  年份：" . $year . "  - " . $sys["title"];
   $page_url = $sys['sharingLink'] . "view_article.php?t=" . $data_source;
 } else {
-  exit('' . $verify['updateMessage'] . '');
+  exit('<iframe src="https://ricehung29.github.io/CSWCSS_ChiArticle/error_pages/maintenance-mode.html"></iframe>
+      
+    <style media="screen">
+      html,body,iframe {
+      margin: 0;
+      padding: 0;
+      }
+      html,body {
+      height: 100%;
+      overflow: hidden;
+      }
+      iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      }
+    </style>
+    ');
 }
 
 ?>

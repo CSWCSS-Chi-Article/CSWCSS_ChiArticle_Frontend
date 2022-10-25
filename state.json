@@ -1,9 +1,8 @@
 {
-  "manifestLink": "https://ricehung29.github.io/CSWCSS_ChiArticle/manifest.json",
+  "manifestLink": "../manifest.json",
   
   "isUpdating": 0 ,
   "updateRedirectLink": "http://cswcss.edu.hk",
-  "updateMessage": "網頁正在更新，請稍後再瀏覽",
   
   "enableSharing": 1 ,
   "enableTypeSorting": 1 ,

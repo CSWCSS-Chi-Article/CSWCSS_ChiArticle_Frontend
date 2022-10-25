@@ -240,7 +240,7 @@ if (isset($_POST['submit'])) {
 
             <hr>
             <div class="btn-block">
-                <p>For more information, please refer to guidelines on uploading article to system.</p>
+                <p>For more information, please refer to guidelines on uploading article to system. <a href="./example.csv">Example file</a></p>
                 <button href="./index.php" type="submit" name="submit" value="Start Upload">Submit</button>
             </div>
         </form>

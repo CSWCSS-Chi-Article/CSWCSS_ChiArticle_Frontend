@@ -1,11 +1,4 @@
-﻿fileID,Title,Author,Year,Num of paragraphs,Paragraph 1,,,,,,,,,,,,,,,
-20190101,hi,hi,2019-2020,5,content1,content2,content3,content4,content5,,,,,,,,,,,
-20190102,hi,hi,2019-2021,8,content1,content2,content3,content4,content5,content6,content7,content8,,,,,,,,
-20190103,hi,hi,2019-2022,9,content1,content2,content3,content4,content5,content6,content7,content8,content9,,,,,,,
-20190104,hi,hi,2019-2023,10,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,,,,,,
-20190105,hi,hi,2019-2024,11,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,content11,,,,,
-20190106,hi,hi,2019-2025,12,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,content11,content12,,,,
-20190107,hi,hi,2019-2026,13,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,content11,content12,content13,,,
-20190108,hi,hi,2019-2027,14,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,content11,content12,content13,content14,,
-20190109,hi,hi,2019-2028,15,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,content11,content12,content13,content14,content15,
-20190110,hi,hi,2019-2029,16,content1,content2,content3,content4,content5,content6,content7,content8,content9,content10,content11,content12,content13,content14,content15,content16
+﻿fileID,Title,Author,Year,Num of paragraphs,Paragraph 1,,,,,,,,
+20190101,hi,hi,2019-2020,5,content1,content2,content3,content4,content5,,,,
+20190102,hi,hi,2019-2021,8,content1,content2,content3,content4,content5,content6,content7,content8,
+20190103,hi,hi,2019-2022,9,content1,content2,content3,content4,content5,content6,content7,content8,content9

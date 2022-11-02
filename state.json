@@ -4,9 +4,6 @@
   "isUpdating": 0 ,  
   "enableSharing": 1 ,
   "enableTypeSorting": 1 ,
-  
   "enableMessage": 0 ,
-  "messageContent" : "測試訊息 ABC123456 CSWCSS 27415034",
-  "messageColor" : "info"
-  
+  "enablePopUpMessage": 0
 }

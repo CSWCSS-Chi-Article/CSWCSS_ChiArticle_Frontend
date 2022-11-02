@@ -15,6 +15,12 @@
     "titleImageLink": "https://cswcss-chi-article.github.io/CSWCSS_ChiArticle_Frontend/img/ppbk014.jpg",
     "articleImageLink": "https://cswcss-chi-article.github.io/CSWCSS_ChiArticle_Frontend/img/pattern_2.jpg",
     "articleTextColor": "white",
+
+    "messageContent" : "測試訊息 ABC123456 CSWCSS 27415034",
+    "messageColor" : "info",
+    "popUpTitle": "POP UP TITLE 2741",
+    "popUpContent": "POP UP CONTENT CSWCSS 27415034",
+    "popUpBtnText": "關閉",
     
     "sharingLink": "https://cswcss-chi-article.herokuapp.com/v1/",
     

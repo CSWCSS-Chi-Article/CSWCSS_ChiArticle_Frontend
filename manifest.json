@@ -18,8 +18,8 @@
 
     "messageContent" : "測試訊息 ABC123456 CSWCSS 27415034",
     "messageColor" : "info",
-    "popUpTitle": "POP UP TITLE 2741",
-    "popUpContent": "POP UP CONTENT CSWCSS 27415034",
+    "popUpTitle": "歡迎",
+    "popUpContent": "歡迎各位瀏覽此網頁。如有意見或建議，歡迎與我們聯絡。",
     "popUpBtnText": "關閉",
     
     "sharingLink": "https://cswcss-chi-article.herokuapp.com/",

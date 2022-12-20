@@ -2,7 +2,7 @@
   "manifestLink": "https://cswcss-chi-article.github.io/CSWCSS_ChiArticle_Frontend/manifest.json",
   
   "isUpdating": 0 ,  
-  "enableSharing": 1 ,
+  "enableSharing": 0 ,
   "enableTypeSorting": 1 ,
   "enableMessage": 0 ,
   "enablePopUpMessage": 0

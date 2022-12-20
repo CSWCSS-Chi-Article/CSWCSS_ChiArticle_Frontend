@@ -9,7 +9,7 @@
     "navBarColor": "transparent",
     "navBarIconWidth": "35",
     "navBarIconHeight": "42",
-    "navBarIconLink": "https://cswcss-chi-article.github.io/CSWCSS_ChiArticle_Frontend/img/school-footer-logo.png",
+    "navBarIconLink": "./school-footer-logo.png",
     
     "titleColor": "black",
     "titleImageLink": "https://cswcss-chi-article.github.io/CSWCSS_ChiArticle_Frontend/img/ppbk014.jpg",
